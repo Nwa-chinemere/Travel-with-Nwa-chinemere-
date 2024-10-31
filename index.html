@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-size: cover;
+        }
+        .navbar{
+            background-color: grey;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+        }
+        .nav{
+            text-decoration: none;
+            color: white;
+            margin-right: 20px;
+        }
+        img{
+            width: 350px;
+        }
+        input {
+            border: 2px solid;
+            width: 300px;
+            height: 40px;
+            margin: 15px;
+            border-radius: 10px;
+            background-color: black;        
+        }
+        .where{
+            color: white;
+            text-align: center;
+        }
+        .btn{
+            border: 2px solid;
+            width: 100%;
+            border-radius: 10px;
+            height: 50px;
+            background-color: grey;
+            color: white;
+        }
+        .fa-brands{
+            font-size: 55px;
+        }
+        .fa-solid{
+            font-size:55px;
+            color: yellow;
+        }
+        #dove{
+            font-size: 55px;
+            color: red;
+        }
+        #contact{
+            font-size: 55px;
+            color: white;
+        }
+        .d{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid;
+    background-color: pink;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+     .a{
+         display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid;
+    background-color: skyblue;
+    padding: 20px;
+    margin-bottom: 20px;
+     }
+     .b{
+         display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid;
+    background-color: grey;
+    padding: 20px;
+    margin-bottom: 20px;
+     }
+     .c{
+        display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid;
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 20px; 
+     }
+     h1{
+         font-size: 1.2em;
+    font-weight: bold;
+    color: White;
+     }
+     h3{
+         font-size: 0.9em;
+    color: black;
+     }
+     .ll{
+         text-decoration: none;
+     }
+     .cus{
+         color: white;
+     }
+     .txt{
+         text-align: center;
+     }
+      @media only screen and(max-width: 392px){
+        .container {
+          margin: 10px auto;
+          padding: 10px;
+        }
+      }
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+    <nav>
+        <ul class="navbar">
+            <li><a href="" class="nav">Sign up</a></li>
+            <li><a href="" class="nav">Sign In</a></li>
+            <li><a href="" class="nav">Service</a></li>
+        </ul>
+     </nav>
+    <i class="fa-solid fa-location-dot"></i>
+    <h2>NWA CHINEMERE TRAVEL</h2>
+    <img src="airport.jpg" alt="Airport">
+    <form>
+        <input type="country" list="Countries" placeholder="Where are you heading to" class="where" required>
+        <datalist id="Countries"> </option>
+        <option>Afghanistan</option>
+<option>Albania</option>
+<option>Algeria</option>
+<option>Andorra</option>
+<option>Angola</option>
+<option>Antigua and Barbuda</option>
+<option>Argentina</option>
+<option>Armenia</option>
+<option>Australia</option>
+<option>Austria</option>
+<option>Azerbaijan</option>
+<option>Bahamas</option>
+<option>Bahrain</option>
+<option>Bangladesh</option>
+<option>Barbados</option>
+<option>Belarus</option>
+<option>Belgium</option>
+<option>Belize</option>
+<option>Benin</option>
+<option>Bhutan</option>
+<option>Bolivia</option>
+<option>Bosnia and Herzegovina</option>
+<option>Botswana</option>
+<option>Brazil</option>
+<option>Brunei</option>
+<option>Bulgaria</option>
+<option>Burkina Faso</option>
+<option>Burundi</option>
+<option>Cambodia</option>
+<option>Cameroon</option>
+<option>Canada</option>
+<option>Cape Verde</option>
+<option>Central African Republic</option>
+<option>Chad</option>
+<option>Chile</option>
+<option>China</option>
+<option>Colombia</option>
+<option>Comoros</option>
+<option>Congo (Brazzaville)</option>
+<option>Congo (Kinshasa)</option>
+<option>Costa Rica</option>
+<option>Côte d'Ivoire</option>
+<option>Croatia</option>
+<option>Cuba</option>
+<option>Cyprus</option>
+<option>Czech Republic</option>
+<option>Denmark</option>
+<option>Djibouti</option>
+<option>Dominica</option>
+<option>Dominican Republic</option>
+<option>Ecuador</option>
+<option>Egypt</option>
+<option>El Salvador</option>
+<option>Equatorial Guinea</option>
+<option>Eritrea</option>
+<option>Estonia</option>
+<option>Eswatini (formerly Swaziland)</option>
+<option>Ethiopia</option>
+<option>Fiji</option>
+<option>Finland</option>
+<option>France</option>
+<option>Gabon</option>
+<option>Gambia</option>
+<option>Georgia</option>
+<option>Germany</option>
+<option>Ghana</option>
+<option>Greece</option>
+<option>Grenada</option>
+<option>Guatemala</option>
+<option>Guinea</option>
+<option>Guinea-Bissau</option>
+<option>Guyana</option>
+<option>Haiti</option>
+<option>Honduras</option>
+<option>Hungary</option>
+<option>Iceland</option>
+<option>India</option>
+<option>Indonesia</option>
+<option>Iran</option>
+<option>Iraq</option>
+<option>Ireland</option>
+<option>Israel</option>
+<option>Italy</option>
+<option>Jamaica</option>
+<option>Japan</option>
+<option>Jordan</option>
+<option>Kazakhstan</option>
+<option>Kenya</option>
+<option>Kiribati</option>
+<option>Kosovo</option>
+<option>Kuwait</option>
+<option>Kyrgyzstan</option>
+<option>Laos</option>
+<option>Latvia</option>
+<option>Lebanon</option>
+<option>Lesotho</option>
+<option>Liberia</option>
+<option>Libya</option>
+<option>Liechtenstein</option>
+<option>Lithuania</option>
+<option>Luxembourg</option>
+<option>Madagascar</option>
+<option>Malawi</option>
+<option>Malaysia</option>
+<option>Maldives</option>
+<option>Mali</option>
+<option>Malta</option>
+<option>Marshall Islands</option>
+<option>Mauritania</option>
+<option>Mauritius</option>
+<option>Mexico</option>
+<option>Micronesia</option>
+<option>Moldova</option>
+<option>Monaco</option>
+<option>Mongolia</option>
+<option>Montenegro</option>
+<option>Morocco</option>
+<option>Mozambique</option>
+<option>Myanmar (Burma)</option>
+<option>Namibia</option>
+<option>Nauru</option>
+<option>Nepal</option>
+<option>Netherlands</option>
+<option>New Zealand</option>
+<option>Nicaragua</option>
+<option>Niger</option>
+<option>Nigeria</option>
+<option>North Macedonia</option>
+<option>Norway</option>
+<option>Oman</option>
+<option>Pakistan</option>
+<option>Palau</option>
+<option>Panama</option>
+<option>Papua New Guinea</option>
+<option>Paraguay</option>
+<option>Peru</option>
+<option>Philippines</option>
+<option>Poland</option>
+<option>Portugal</option>
+<option>Qatar</option>
+<option>Romania</option>
+        </datalist>
+        <button class="btn"><h2>Submit</h2></button>
+    </form>
+    </div>
+    <div class="d">
+        <a href="" class="ll"> <i class="fa-brands fa-guilded"></i>
+        <h1>GUIDANCE</h1>
+         <h3>expert in travelling knowledge</h3></a>
+        </div>
+        <div class="a">
+            <a href=""> <i class="fa-solid fa-bell-concierge"></i></a>
+            <a href="" class="ll">
+                <h2>SERVICE</h2>
+                <h3>Check out our services</h3>
+            </a>
+        </div>
+        <div class="b">
+            <a href="" class="ll"><i id="dove" class="fa-solid fa-dove"></i>
+            <h2>PEACE</h2>
+            <h3>That peace of mind you want is with us</h3>
+            </a>
+        </div>
+        <div class="c">
+            <a href="" class="ll">
+                <i id="contact"class="fa-solid fa-address-book"></i>
+                <h2 class="cus">CONTACT US</h2>
+                <h3 class="cus">24/7 Customer care</h3>
+            </a>
+        </div>
+        <p class="txt">
+            Unlock a World of Endless Possibilities with Nwa Chinemere Travel - Expert Vacation Planners Dedicated to Delivering Personalized Travel Solutions, Unbeatable Value, and Unforgettable Adventures that Exceed Your Wildest Dreams.
+        </p>
+    </div>
+    </div>
+</body>
+  </html>
